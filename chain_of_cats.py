@@ -12,7 +12,6 @@ def agent_fast_reply(fast_reply, cat):
 
         # Step 1: Analyze problem
         problem_analysis_prompt = settings.get("problem_analysis_prompt").format(user_prompt=user_prompt)
-        cat.agent_prefix = "You are an AI agent"
         cat.send_ws_message("Let'analyze the problem...")
         problem_analysis_result = cat.llm(problem_analysis_prompt)
         
