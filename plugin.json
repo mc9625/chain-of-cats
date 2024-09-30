@@ -4,7 +4,7 @@
     "description": "This plugin implements a very rudimentary chain of prompt reasoning model.",
     "author_name": "NuvolaProject",
     "author_url": "https://nuvolaproject.cloud",
-    "plugin_url": "https://github.com/my_name/chain_of_cats",
-    "tags": "cat, template, example",
-    "thumb": "https://raw.githubusercontent.com/my_repo_path/chain_of_cats.png"
+    "plugin_url": "https://github.com/mc9625/chain-of-cats",
+    "tags": "cat, reasoning, chain of prompt",
+    "thumb": "https://github.com/mc9625/chain-of-cats/blob/main/chain-of-cats.png?raw=true"
 }
