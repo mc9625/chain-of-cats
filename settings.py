@@ -1,7 +1,7 @@
 from cat.mad_hatter.decorators import tool, hook, plugin
 from pydantic import BaseModel, Field
 
-class ChainOfCatsSettings(BaseModel):
+class StrawberryCatsSettings(BaseModel):
     trigger: str = Field(
         title="The prefix that will trigger the reasoning.",
         default="Q*"
@@ -79,4 +79,4 @@ class ChainOfCatsSettings(BaseModel):
     )
 @plugin
 def settings_model():
-    return ChainOfCatsSettings
+    return StrawberryCatsSettings
